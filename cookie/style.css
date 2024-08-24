@@ -1,0 +1,42 @@
+body
+{
+    background-color: bisque;
+    
+    /* Basic styling for the body */
+ 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the nav bar */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Remove default list styling */
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Align list items horizontally */
+.navbar ul li {
+    float: left;
+}
+
+/* Style the links */
+.navbar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* Change background color on hover */
+.navbar ul li a:hover {
+    background-color: #575757;
+}
